@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                     </ul>
                 </div>
                 <WordkMark/>
-                <div className="max-w-2xl px-4 lg:px-0 text-left lg:text-lg tracking-wide mx-auto mt-16">
+                <div className="max-w-2xl px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide mx-auto mt-16">
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
                         Cannabis has been a part of Amsterdams culture for years, and we are proud to
                         be part of this. So many people come here seeking out peace in an increasingly busy world - we
