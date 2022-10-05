@@ -11,7 +11,7 @@ const Shop: NextPage = () => {
                 <meta name="description" content="The Happy Stoner"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <main className="p-4 text-center">
+            <main className="p-4 text-center max-w-2xl mx-auto">
                 <div className="block mb-8">
                     <ul className="flex gap-2 justify-center">
                         <Link href="/">
@@ -31,7 +31,7 @@ const Shop: NextPage = () => {
                         </Link>
                     </ul>
                 </div>
-                <div className="max-w-2xl  text-lg text-left mx-auto mt-12">
+                <div className="  text-lg text-left  mt-12">
                     blog
                 </div>
             </main>

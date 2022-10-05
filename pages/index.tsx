@@ -11,7 +11,7 @@
                     <meta name="description" content="The Happy Stoner"/>
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
-                <main className="p-4 text-center">
+                <main className="p-4 text-center max-w-2xl mx-auto">
                     <div className="block mb-16">
                         <ul className="flex gap-2 justify-center items-center">
                             <Link href="/">
@@ -33,7 +33,7 @@
                     </div>
                     <WordkMark/>
                     <div
-                        className="max-w-2xl mt-8 px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide mx-auto">
+                        className=" mt-8 px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide ">
                         <p className="mb-4 leading-relaxed text-green-100/80 ">
                             Cannabis has been a part of Amsterdams culture for years, and we are proud to
                             be part of this. So many people come here seeking out peace in an increasingly busy world - we
@@ -52,8 +52,8 @@
                             We know you love smoking as much we do, but why keep using plastics when there is a better
                             option?
                         </p>
-                        <form className="flex flex-col my-16 text-center justify-center">
-                            <label className="text-green-100/60 font-serif font-medium text-lg md:text-xl lg:text-2xl mb-3 "
+                        <form className="flex flex-col my-24 text-center justify-center">
+                            <label className="text-green-100/60 font-serif font-medium text-xl md:text-2xl lg:text-3xl mb-3 "
                                    htmlFor="email">Respect the stash, be a happy stoner</label>
                             <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
                                 <input
