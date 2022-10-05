@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                         We know you love smoking as much we do, but why keep using plastics when there is a better
                         option?
                     </p>
-                    <form className="flex flex-col mx-2 my-16 text-center justify-center bg-black/10 pt-4 pb-6 px-8 rounded">
+                    <form className="flex flex-col  my-16 text-center justify-center bg-black/10 pt-4 pb-6 px-8 rounded">
                         <label className="text-green-100/80 font-medium text-sm md:text-md lg:text-lg mb-3 "
                                htmlFor="email">Respect the stash, be a happy stoner</label>
                         <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
