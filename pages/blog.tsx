@@ -1,6 +1,7 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
 import Link from "next/link";
+import InternalLink from "../components/InternalLink";
 import WordkMark from "../components/WordkMark";
 
 const Blog: NextPage = () => {
@@ -12,23 +13,23 @@ const Blog: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main className="p-4 text-center max-w-2xl mx-auto">
-                <div className="block mb-8">
-                    <ul className="flex gap-2 justify-center">
-                        <Link href="/">
-                            <li className="text-green-100/80 w-full cursor-pointer text-base hover:text-green-100 font-bold bg-green-900/20 font-light hover:bg-green-900/40 p-4 rounded transition-all">
+                <div className="block mb-16">
+                    <ul className="flex gap-2 justify-center items-center [&>*]:w-full">
+                        <li>
+                            <InternalLink href="/">
                                 Hello
-                            </li>
-                        </Link>
-                        <Link href="/shop">
-                            <li className="text-green-100/80 w-full cursor-pointer text-base hover:text-green-100 font-bold bg-green-900/20 font-light hover:bg-green-900/40 p-4 rounded transition-all">
+                            </InternalLink>
+                        </li>
+                        <li>
+                            <InternalLink href="/shop">
                                 Shop
-                            </li>
-                        </Link>
-                        <Link href="/blog">
-                            <li className="text-green-100/80 w-full cursor-pointer text-base hover:text-green-100 font-bold bg-green-900/60 p-4 rounded transition-all">
+                            </InternalLink>
+                        </li>
+                        <li>
+                            <InternalLink href="/blog">
                                 Blog
-                            </li>
-                        </Link>
+                            </InternalLink>
+                        </li>
                     </ul>
                 </div>
                 <div className="  text-lg text-left  mt-12">
