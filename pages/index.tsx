@@ -57,11 +57,11 @@
                                    htmlFor="email">Respect the stash, be a happy stoner</label>
                             <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
                                 <input
-                                    className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md px-3 py-2 "
+                                    className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md p-4 "
                                     type="email"
                                     name="email" id="email" placeholder="E-mail address..."/>
                                 <button
-                                    className="whitespace-nowrap bg-black/25 hover:bg-black/50 text-green-100/60 tracking-wide font-bold transition-all   rounded-md px-6 py-2"
+                                    className="whitespace-nowrap bg-black/25 hover:bg-black/50 text-green-100/60 tracking-wide font-bold transition-all   rounded-md py-4 px-8"
                                     type="submit">Join Us
                                 </button>
                             </div>
