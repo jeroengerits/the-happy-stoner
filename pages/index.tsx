@@ -12,21 +12,21 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main className="p-4 text-center">
-                <div className="block mb-16">
+                <WordkMark/>
+                <div className="block mb-16 mt-4">
                     <ul className="flex gap-2 justify-center items-center">
-                        <li className="text-green-100/80 text-sm hover:text-green-100 font-bold bg-green-900/60 px-4 py-2 rounded transition-all">
+                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium bg-green-900/60 px-4 py-2 rounded transition-all">
                             <Link href="/">Hello</Link>
                         </li>
-                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
+                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium font-light hover:bg-green-900/40 px-4 py-2 rounded transition-all">
                             <Link href="/shop">Shop</Link>
                         </li>
-                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
+                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium font-light hover:bg-green-900/40 px-4 py-2 rounded transition-all">
                             <Link  href="/blog">Blog</Link>
                         </li>
                     </ul>
                 </div>
-                <WordkMark/>
-                <div className="max-w-2xl px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide mx-auto mt-16">
+                <div className="max-w-2xl px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide mx-auto">
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
                         Cannabis has been a part of Amsterdams culture for years, and we are proud to
                         be part of this. So many people come here seeking out peace in an increasingly busy world - we
