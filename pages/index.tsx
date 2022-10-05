@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                         option?
                     </p>
                     <form className="flex flex-col  my-16 text-center justify-center bg-black/10 pt-4 pb-6 px-8 rounded">
-                        <label className="text-green-100/80 font-medium text-sm md:text-md lg:text-lg mb-3 "
+                        <label className="text-green-100/80 font-medium text-md md:text-lg lg:text-xl mb-3 "
                                htmlFor="email">Respect the stash, be a happy stoner</label>
                         <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
                             <input
