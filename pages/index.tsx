@@ -18,24 +18,23 @@ const Home: NextPage = () => {
                             <Link href="/">Hello</Link>
                         </li>
                         <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
-                            <Link  href="/shop">Shop</Link>
+                            <Link href="/shop">Shop</Link>
                         </li>
                         <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
-                            <Link  href="/">Blog</Link>
+                            <Link href="/">Blog</Link>
                         </li>
                     </ul>
                 </div>
-
-                                <WordkMark/>
-
+                <WordkMark/>
                 <div className="max-w-2xl px-4 lg:px-0 text-left lg:text-lg tracking-wide mx-auto mt-16">
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
-                        Cannabis has been a part of Amsterdam's culture for years, and we are proud to
+                        Cannabis has been a part of Amsterdams culture for years, and we are proud to
                         be part of this. So many people come here seeking out peace in an increasingly busy world - we
                         feel their stash should go along with care too!
                     </p>
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
-                        That's why we came up with a future proof package made with recycled and eco-friendly materials - which
+                        That is why we came up with a future proof package made with recycled and eco-friendly materials
+                        - which
                         means we help reduce pollution in Amsterdam.
                     </p>
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
@@ -43,7 +42,8 @@ const Home: NextPage = () => {
                         enjoy the highest quality while keeping your conscience clear.
                     </p>
                     <p className="mb-4 leading-relaxed text-green-100/80 ">
-                        We know you love smoking as much we do, but why keep using plastics when there's a better option?
+                        We know you love smoking as much we do, but why keep using plastics when there is a better
+                        option?
                     </p>
 
                     {/* Make a mailinglist subscribe form with Tailwind CSS*/}
@@ -52,8 +52,10 @@ const Home: NextPage = () => {
                         <label className="text-green-100/80 tracking-wide font-bold  mb-3 "
                                htmlFor="email">Respect the stash, be a happy stoner</label>
                         <div className="flex justify-start gap-2 justify-center items-center">
-                            <input className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md px-3 py-2 " type="email"
-                                   name="email" id="email" placeholder="E-mail address..."/>
+                            <input
+                                className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md px-3 py-2 "
+                                type="email"
+                                name="email" id="email" placeholder="E-mail address..."/>
                             <button
                                 className="whitespace-nowrap bg-black/25 hover:bg-black/50 text-green-100/80 tracking-wide font-bold transition-all   rounded-md px-6 py-2"
                                 type="submit">Join Us
