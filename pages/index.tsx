@@ -12,15 +12,15 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <main className="p-4 text-center">
-                <div className="block mb-8">
+                <div className="block mb-16">
                     <ul className="flex gap-2 justify-center items-center">
-                        <li className="text-green-100/80 w-full text-sm hover:text-green-100 font-bold bg-green-900/60 p-4 rounded transition-all">
+                        <li className="text-green-100/80 w-full text-base hover:text-green-100 font-bold bg-green-900/60 p-4 rounded transition-all">
                             <Link href="/">Hello</Link>
                         </li>
-                        <li className="text-green-100/80 w-full text-sm hover:text-green-100 font-bold bg-green-900/20 font-light hover:bg-green-900/40 p-4 rounded transition-all">
+                        <li className="text-green-100/80 w-full text-base hover:text-green-100 font-bold bg-green-900/20 font-light hover:bg-green-900/40 p-4 rounded transition-all">
                             <Link href="/shop">Shop</Link>
                         </li>
-                        <li className="text-green-100/80 w-full text-sm hover:text-green-100 font-bold font-light bg-green-900/20 hover:bg-green-900/40 p-4 rounded transition-all">
+                        <li className="text-green-100/80 w-full text-base hover:text-green-100 font-bold font-light bg-green-900/20 hover:bg-green-900/40 p-4 rounded transition-all">
                             <Link  href="/blog">Blog</Link>
                         </li>
                     </ul>
