@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                             <Link href="/shop">Shop</Link>
                         </li>
                         <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
-                            <Link href="/">Blog</Link>
+                            <Link  href="/blog">Blog</Link>
                         </li>
                     </ul>
                 </div>

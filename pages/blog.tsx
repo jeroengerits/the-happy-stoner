@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from "next/link";
 import WordkMark from "../components/WordkMark";
 
-const Shop: NextPage = () => {
+const Blog: NextPage = () => {
     return (
         <div>
             <Head>
@@ -17,20 +17,20 @@ const Shop: NextPage = () => {
                         <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
                             <Link href="/">Hello</Link>
                         </li>
-                        <li className="text-green-100/80 text-sm hover:text-green-100 font-bold bg-green-900/60 px-4 py-2 rounded transition-all">
+                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
                             <Link  href="/shop">Shop</Link>
                         </li>
-                        <li className="text-green-100/80 text-sm hover:text-green-100 font-medium hover:bg-green-900/40 px-4 py-2 rounded transition-all">
+                        <li className="text-green-100/80 text-sm hover:text-green-100 font-bold bg-green-900/60 px-4 py-2 rounded transition-all">
                             <Link  href="/blog">Blog</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="max-w-2xl  text-lg text-left mx-auto mt-12">
-shop
+blog
                 </div>
             </main>
         </div>
     )
 }
 
-export default Shop
+export default Blog
