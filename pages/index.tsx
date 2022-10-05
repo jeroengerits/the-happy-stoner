@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 
                     {/* Make a mailinglist subscribe form with Tailwind CSS*/}
 
-                    <form className="flex flex-col mt-16 text-center justify-center">
+                    <form className="flex flex-col mx-2 my-16 text-center justify-center">
                         <label className="text-green-100/80 tracking-wide font-bold  mb-3 "
                                htmlFor="email">Respect the stash, be a happy stoner</label>
                         <div className="flex justify-start gap-2 justify-center items-center">
