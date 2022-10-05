@@ -53,7 +53,7 @@
                             option?
                         </p>
                         <form className="flex flex-col my-24 text-center justify-center">
-                            <label className="text-green-100/60 font-serif font-medium text-2xl md:text-3xl lg:text-4xl mb-4"
+                            <label className="text-green-100/60 font-serif font-medium text-2xl md:text-3xl mb-4"
                                    htmlFor="email">Respect the stash, be a happy stoner</label>
                             <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
                                 <input
