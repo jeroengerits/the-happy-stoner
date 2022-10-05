@@ -32,7 +32,7 @@ const Shop: NextPage = () => {
                     </ul>
                 </div>
                 <div className="  text-lg text-left  mt-12">
-                    blog
+                    shop
                 </div>
             </main>
         </div>
