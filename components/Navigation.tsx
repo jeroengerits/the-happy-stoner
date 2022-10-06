@@ -33,10 +33,10 @@ const NavigationItem = ({
       <Link href={href}>
         <Button
           className={classNames(
+            "w-full",
             isActive
               ? "bg-green-900 font-black"
-              : "bg-transparent font-normal font-light hover:bg-green-700 hover:font-medium hover:text-green-50",
-            "lg:text-md block w-full cursor-pointer select-none rounded py-4 text-base uppercase tracking-wider text-green-100 ring-green-200 transition-all focus:outline-none focus:ring-2 xl:text-xl"
+              : "bg-transparent font-normal font-light hover:bg-green-700 hover:font-medium hover:text-green-50"
           )}
         >
           {children}
