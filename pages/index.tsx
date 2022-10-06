@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           </Navigation.Item>
         </Navigation>
         <WordkMark />
-        <div className=" mt-12 px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide ">
+        <div className="mt-12 px-2 lg:px-0">
           <Paragraph>
             Cannabis has been a part of Amsterdams culture for years, and we are
             proud to be part of this. So many people come here seeking out peace
@@ -57,14 +57,14 @@ const Home: NextPage = () => {
             </label>
             <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
               <input
-                className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md p-3 "
+                className=" border-0 bg-white/10 placeholder-black/30 text-green-100 font-medium transition-all rounded-md py-3 px-6"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail address..."
               />
               <button
-                className="whitespace-nowrap bg-black/25 hover:bg-black/50 text-green-100/60 tracking-wide font-bold transition-all   rounded-md py-3 px-8"
+                className="whitespace-nowrap bg-green-900/50 hover:bg-green-900 text-green-100/80 tracking-wide font-bold transition-all   rounded-md py-3 px-8"
                 type="submit"
               >
                 Join Us

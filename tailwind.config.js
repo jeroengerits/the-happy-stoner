@@ -10,6 +10,9 @@ module.exports = {
         sans: ["Open Sans", "sans-serif"],
         serif: ["Playfair Display", "serif"],
       },
+      colors: {
+        weed: "#285028",
+      },
     },
   },
   plugins: [],
