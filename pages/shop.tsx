@@ -23,7 +23,9 @@ const Shop: NextPage = () => {
           </Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <WordMark />
+          <div className="mt-8 mb-16 ">
+            <WordMark />
+          </div>
           <br />
           <br />
           <br />

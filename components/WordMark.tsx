@@ -4,10 +4,7 @@ import React from "react";
 type Props = {} & React.HTMLAttributes<HTMLDivElement>;
 
 const WordMark = ({ className, ...rest }: Props) => (
-  <div
-    className={classNames("mt-8 mb-16 block text-center", className)}
-    {...rest}
-  >
+  <div className={classNames("block text-center", className)} {...rest}>
     <h1 className="select-none font-serif text-3xl font-bold  md:text-4xl lg:mb-1 lg:text-5xl">
       The Happy Stoner
     </h1>

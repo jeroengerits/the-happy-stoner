@@ -24,7 +24,9 @@ const Home: NextPage = () => {
           <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <WordMark />
+          <div className="mt-8 mb-16 ">
+            <WordMark />
+          </div>
           <div className="mt-12 px-2 md:px-0 ">
             <Paragraph>
               Cannabis has been a part of Amsterdams culture for years, and
