@@ -22,8 +22,6 @@ const Shop: NextPage = () => {
             </Navigation.Item>
             <Navigation.Item href="/blog">Blog</Navigation.Item>
           </Navigation>
-
-          <Paragraph>Shop</Paragraph>
         </main>
       </div>
     </div>
