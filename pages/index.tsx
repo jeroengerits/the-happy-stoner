@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Button from "../components/Button";
 import Navigation from "../components/Navigation";
 import Paragraph from "../components/Paragraph";
 import WordkMark from "../components/WordkMark";
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-green-800 text-green-100 min-h-screen">
+      <div className="bg-green-800  min-h-screen">
         <main className="p-4 max-w-2xl mx-auto antialiased ">
           <Navigation>
             <Navigation.Item href="/" isActive>
@@ -53,18 +54,13 @@ const Home: NextPage = () => {
               </label>
               <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
                 <input
-                  className="focus:outline-none focus:ring-2 ring-white/50 border-0 w-80 select-none bg-white/10 placeholder-black/40 text-white/80 font-medium transition-all rounded-md py-3 px-6"
+                  className="focus:outline-none focus:ring-2 ring-white/50 border-0 w-80 select-none bg-white/10 placeholder-white/50 text-white/80 font-medium transition-all rounded-md py-3 px-6"
                   type="email"
                   name="email"
                   id="email"
                   placeholder="E-mail address..."
                 />
-                <button
-                  className="focus:outline-none focus:ring-2 ring-white/50 whitespace-nowrap select-none bg-white/10 hover:bg-white/20 text-white/80 tracking-wide font-bold transition-all rounded-md py-3 px-8"
-                  type="submit"
-                >
-                  Join Us
-                </button>
+                <Button>Join Us</Button>
               </div>
             </form>
           </div>

@@ -31,8 +31,8 @@ const NavigationItem = ({
 }: NavigationItemProps) => {
   const className = classNames(
     isActive
-      ? "font-black bg-white/20"
-      : "font-normal hover:text-white hover:bg-white/10",
+      ? "font-black bg-white/10"
+      : "font-normal hover:text-white hover:bg-white/20",
     "block text-white/80 w-full text-sm lg:text-md xl:text-lg cursor-pointer p-3 rounded transition-all"
   );
   return (

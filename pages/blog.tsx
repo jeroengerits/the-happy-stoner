@@ -21,7 +21,7 @@ const Blog: NextPage = () => {
               Blog
             </Navigation.Item>
           </Navigation>
-          <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>
@@ -30,7 +30,7 @@ const Blog: NextPage = () => {
             laborum maxime nam natus neque nisi quaerat repellat sed, velit
             voluptatum! Eos, nesciunt!
           </Paragraph>
-          <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>
@@ -39,7 +39,7 @@ const Blog: NextPage = () => {
             laborum maxime nam natus neque nisi quaerat repellat sed, velit
             voluptatum! Eos, nesciunt!
           </Paragraph>
-          <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>
