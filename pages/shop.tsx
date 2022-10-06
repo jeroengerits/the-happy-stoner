@@ -3,8 +3,6 @@ import Head from "next/head";
 import ContentContainer from "../components/ContentContainer";
 import Navigation from "../components/Navigation";
 import PageContainer from "../components/PageContainer";
-import Paragraph from "../components/Paragraph";
-import WordMark from "../components/WordMark";
 
 const Shop: NextPage = () => {
   return (

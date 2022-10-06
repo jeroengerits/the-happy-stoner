@@ -4,7 +4,6 @@ import Button from "../components/Button";
 import ContentContainer from "../components/ContentContainer";
 import Navigation from "../components/Navigation";
 import PageContainer from "../components/PageContainer";
-import Paragraph from "../components/Paragraph";
 import WordMark from "../components/WordMark";
 
 const Home: NextPage = () => {
@@ -28,26 +27,26 @@ const Home: NextPage = () => {
             <WordMark />
           </div>
           <div className="mt-12 px-2 md:px-0 ">
-            <Paragraph>
+            <p className="paragraph mb-4">
               Cannabis has been a part of Amsterdams culture for years, and
               we’re proud to be part of this. So many people come here seeking
               out peace in an increasingly busy world - we feel their stash
               should go along with care too!
-            </Paragraph>
-            <Paragraph>
+            </p>
+            <p className="paragraph mb-4">
               That’s why we came up with a plastic-free package made with
               recycled and eco-friendly materials - which helps to reduce
               pollution in Amsterdam.
-            </Paragraph>
-            <Paragraph>
+            </p>
+            <p className="paragraph mb-4">
               Our sleek design is reusable and keeps your cannabis fresh, so you
               can always enjoy the highest quality while keeping your conscience
               clear.
-            </Paragraph>
-            <Paragraph>
+            </p>
+            <p className="paragraph mb-4">
               We know you love smoking as much we do, but why keep using
               plastics when there is a better option?
-            </Paragraph>
+            </p>
             <form className="my-16 flex flex-col justify-center text-center">
               <label className="heading-xs mx-auto mb-4" htmlFor="email">
                 Respect the stash, be like The Happy Stoner

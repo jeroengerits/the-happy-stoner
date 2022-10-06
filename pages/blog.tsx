@@ -3,8 +3,6 @@ import Head from "next/head";
 import ContentContainer from "../components/ContentContainer";
 import Navigation from "../components/Navigation";
 import PageContainer from "../components/PageContainer";
-import Paragraph from "../components/Paragraph";
-import WordMark from "../components/WordMark";
 
 const Blog: NextPage = () => {
   return (
@@ -23,32 +21,32 @@ const Blog: NextPage = () => {
           <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <div className="mt-8 px-2 md:px-0 ">
-            <h2 className="heading-xs mb-2 mt-8">
+          <div className=" px-2 md:px-0 ">
+            <h2 className="heading-xs mb-2 mt-16">
               The real hidden costs of cannabis smoking- plastics polluting our
               planet
             </h2>
-            <Paragraph>
+            <p className="paragraph">
               Aliquid amet aperiam ea excepturi exercitationem expedita, impedit
               iusto laborum maxime nam natus neque nisi quaerat sed, velit
               voluptatum!
-            </Paragraph>
-            <h2 className="heading-xs mb-2 mt-8">
+            </p>
+            <h2 className="heading-xs mb-2 mt-16">
               Why switching to The Happy Stoner will save you money and the
               planet
             </h2>
-            <Paragraph>
+            <p className="paragraph">
               Exercitationem expedita, impedit iusto laborum maxime nam natus
               neque nisi quaerat repellat sed, velit voluptatum!
-            </Paragraph>
-            <h2 className="heading-xs mb-2 mt-8">
+            </p>
+            <h2 className="heading-xs mb-2 mt-16">
               Why environmental friendly cannabis packaging matters to you and
               the planet
             </h2>
-            <Paragraph>
+            <p className="paragraph">
               Impedit iusto laborum maxime nam natus neque nisi quaerat repellat
               sed, velit voluptatum!
-            </Paragraph>
+            </p>
           </div>
         </ContentContainer>
       </PageContainer>
