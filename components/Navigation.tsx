@@ -34,7 +34,9 @@ const NavigationItem = ({
         <Button
           className={classNames(
             "w-full",
-            isActive ? "bg-green-900 font-black" : "bg-transparent "
+            isActive
+              ? "bg-green-900 font-black"
+              : "bg-transparent hover:bg-green-900/40"
           )}
         >
           {children}
