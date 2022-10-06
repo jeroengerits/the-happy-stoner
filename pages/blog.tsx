@@ -21,9 +21,11 @@ const Blog: NextPage = () => {
           <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <h1 className="heading-md mt-12 mb-12 ">Latest Updates</h1>
+          <h1 className="heading-md mt-12 mb-12 text-green-50 ">
+            Latest Updates
+          </h1>
           <div>
-            <h2 className="heading-xs mb-2 mt-6">
+            <h2 className="heading-xs mb-2 mt-6 text-green-50">
               The real hidden costs of cannabis smoking- plastics polluting our
               planet
             </h2>
@@ -34,7 +36,7 @@ const Blog: NextPage = () => {
               expedita, impedit iusto laborum maxime nam natus neque nisi
               quaerat sed, velit voluptatum!
             </p>
-            <h2 className="heading-xs mb-2 mt-16">
+            <h2 className="heading-xs mb-2 mt-16 text-green-50">
               Why switching to The Happy Stoner will save you money and the
               planet
             </h2>
@@ -44,7 +46,7 @@ const Blog: NextPage = () => {
               aperiam ea excepturi exercitationem expedita, impedit iusto
               laborum maxime nam natus neque nisi quaerat sed, velit voluptatum!
             </p>
-            <h2 className="heading-xs mb-2 mt-16">
+            <h2 className="heading-xs mb-2 mt-16 text-green-50">
               Why environmental friendly cannabis packaging matters to you and
               the planet
             </h2>
@@ -54,7 +56,7 @@ const Blog: NextPage = () => {
               exercitationem expedita, impedit iusto laborum maxime nam natus
               neque nisi quaerat sed, velit voluptatum!
             </p>
-            <h2 className="heading-xs mb-2 mt-16">
+            <h2 className="heading-xs mb-2 mt-16 text-green-50">
               Why switching to The Happy Stoner will save you money and the
               planet
             </h2>
@@ -62,7 +64,7 @@ const Blog: NextPage = () => {
               Exercitationem expedita, impedit iusto laborum maxime nam natus
               neque nisi quaerat repellat sed, velit voluptatum!
             </p>
-            <h2 className="heading-xs mb-2 mt-16">
+            <h2 className="heading-xs mb-2 mt-16 text-green-50">
               Why environmental friendly cannabis packaging matters to you and
               the planet
             </h2>
