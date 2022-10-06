@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import ContentContainer from "../components/ContentContainer";
 import Navigation from "../components/Navigation";
+import PageContainer from "../components/PageContainer";
 import Paragraph from "../components/Paragraph";
 import WordMark from "../components/WordMark";
 
@@ -12,7 +14,7 @@ const Blog: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-green-800 text-green-100 antialiased">
+      <PageContainer>
         <Navigation>
           <Navigation.Item href="/">Hello</Navigation.Item>
           <Navigation.Item href="/shop">Shop</Navigation.Item>
@@ -20,7 +22,7 @@ const Blog: NextPage = () => {
             Blog
           </Navigation.Item>
         </Navigation>
-        <main className="mx-auto max-w-2xl p-4  ">
+        <ContentContainer>
           <WordMark />
           <div className="mt-12 px-2 md:px-0 ">
             <h2 className=" mb-2 mt-12   font-serif text-2xl font-medium !leading-snug  md:text-3xl ">
@@ -46,8 +48,8 @@ const Blog: NextPage = () => {
               sed, velit voluptatum!
             </Paragraph>
           </div>
-        </main>
-      </div>
+        </ContentContainer>
+      </PageContainer>
     </div>
   );
 };
