@@ -1,9 +1,5 @@
 import classNames from "classnames";
 
-type Props = {
-  size: "small" | "normal" | "large";
-};
-
 const WordkMark = () => {
   const titleClassName = classNames(
     "text-3xl md:text-4xl lg:text-5xl select-none font-serif text-green-50/80 mb-1 lg:mb-2 font-black"

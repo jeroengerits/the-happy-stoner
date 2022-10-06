@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import InternalLink from "../components/InternalLink";
+import Navigation from "../components/Navigation";
 import WordkMark from "../components/WordkMark";
 
 const Home: NextPage = () => {
@@ -14,19 +14,19 @@ const Home: NextPage = () => {
       </Head>
       <main className="p-4 text-center max-w-2xl mx-auto">
         <div className="block mb-16">
-          <ul className="flex gap-2 justify-center items-center [&>*]:w-full">
-            <li>
+          <Navigation>
+            <Navigation.Item>
               <InternalLink href="/" isActive>
                 Hello
               </InternalLink>
-            </li>
-            <li>
+            </Navigation.Item>
+            <Navigation.Item>
               <InternalLink href="/shop">Shop</InternalLink>
-            </li>
-            <li>
+            </Navigation.Item>
+            <Navigation.Item>
               <InternalLink href="/blog">Blog</InternalLink>
-            </li>
-          </ul>
+            </Navigation.Item>
+          </Navigation>
         </div>
         <WordkMark />
         <div className=" mt-12 px-4 lg:px-0 text-left text-sm md:text-md lg:text-lg tracking-wide ">
