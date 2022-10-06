@@ -31,9 +31,9 @@ const NavigationItem = ({
 }: NavigationItemProps) => {
   const className = classNames(
     isActive
-      ? "font-black bg-green-900"
-      : "font-normal hover:text-green-100 hover:bg-green-900/50",
-    "block text-green-100/80 w-full text-sm lg:text-md xl:text-lg cursor-pointer p-3 rounded transition-all"
+      ? "font-black bg-white/20"
+      : "font-normal hover:text-white hover:bg-white/10",
+    "block text-white/80 w-full text-sm lg:text-md xl:text-lg cursor-pointer p-3 rounded transition-all"
   );
   return (
     <li className="w-full" {...rest}>

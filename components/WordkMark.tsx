@@ -1,12 +1,12 @@
 import classNames from "classnames";
 
 const WordkMark = () => {
-  const containerClassName = classNames("text-center block bg-green-800  py-2");
+  const containerClassName = classNames("text-center block ");
   const titleClassName = classNames(
-    "text-3xl md:text-4xl lg:text-5xl select-none font-serif text-green-50/80 md:mb-1 lg:mb-2 font-black"
+    "text-3xl md:text-4xl lg:text-5xl select-none font-serif text-white/80 md:mb-1 lg:mb-2 font-black"
   );
   const subtitleClassName = classNames(
-    "select-none text-xs md:text-sm lg:text-base uppercase text-green-50/80 tracking-widest font-light"
+    "select-none text-xs md:text-sm lg:text-base uppercase text-white/80 tracking-widest font-light"
   );
   return (
     <div className={containerClassName}>
