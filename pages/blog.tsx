@@ -23,7 +23,7 @@ const Blog: NextPage = () => {
           <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <div className="mt-8 mb-16 ">
+          <div className="mt-12 mb-16 ">
             <WordMark />
           </div>{" "}
           <div className="mt-12 px-2 md:px-0 ">
