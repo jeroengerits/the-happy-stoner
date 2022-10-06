@@ -6,10 +6,7 @@ type Props = {
 
 const Paragraph = ({ children, ...rest }: Props) => {
   return (
-    <p
-      className="mb-4  text-sm   !leading-relaxed md:text-base lg:text-lg"
-      {...rest}
-    >
+    <p className="paragraph mb-4" {...rest}>
       {children}
     </p>
   );

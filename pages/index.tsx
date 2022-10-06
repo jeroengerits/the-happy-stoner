@@ -49,10 +49,7 @@ const Home: NextPage = () => {
               plastics when there is a better option?
             </Paragraph>
             <form className="my-16 flex flex-col justify-center text-center">
-              <label
-                className="mx-auto mb-4 font-serif text-xl font-medium tracking-wide md:text-2xl"
-                htmlFor="email"
-              >
+              <label className="heading-xs mx-auto mb-4" htmlFor="email">
                 Respect the stash, be like The Happy Stoner
               </label>
               <div className="flex flex-col items-center justify-start justify-center gap-2 lg:flex-row">
