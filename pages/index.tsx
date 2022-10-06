@@ -3,7 +3,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Navigation from "../components/Navigation";
 import Paragraph from "../components/Paragraph";
-import WordkMark from "../components/WordkMark";
+import WordMark from "../components/WordMark";
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="min-h-screen  bg-green-800">
         <main className="mx-auto max-w-2xl p-4 antialiased ">
-          <WordkMark />
+          <WordMark />
           <Navigation>
             <Navigation.Item href="/" isActive>
               Hello

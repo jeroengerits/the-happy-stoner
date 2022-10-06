@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Paragraph from "../components/Paragraph";
-import WordkMark from "../components/WordkMark";
+import WordMark from "../components/WordMark";
 
 const Shop: NextPage = () => {
   return (
@@ -14,7 +14,7 @@ const Shop: NextPage = () => {
       </Head>
       <div className="min-h-screen bg-green-800 text-green-100">
         <main className="mx-auto max-w-2xl p-4">
-          <WordkMark />
+          <WordMark />
           <Navigation>
             <Navigation.Item href="/">Hello</Navigation.Item>
             <Navigation.Item href="/shop" isActive>

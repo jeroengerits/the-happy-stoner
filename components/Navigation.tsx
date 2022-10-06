@@ -6,13 +6,13 @@ import Stack from "./Stack";
 
 type NavigationProps = {
   children: React.ReactNode;
-};
+} & React.HTMLAttributes<HTMLDivElement>;
 
 type NavigationItemProps = {
   children: React.ReactNode;
   href: string;
   isActive?: boolean;
-};
+} & React.HTMLAttributes<HTMLDivElement>;
 
 const Navigation = ({ children, ...rest }: NavigationProps) => {
   return (
@@ -29,7 +29,7 @@ const NavigationItem = ({
   ...rest
 }: NavigationItemProps) => {
   return (
-    <div className="w-full" {...rest}>
+    <Stack.Item {...rest}>
       <Link href={href}>
         <Button
           className={classNames(
@@ -42,7 +42,7 @@ const NavigationItem = ({
           {children}
         </Button>
       </Link>
-    </div>
+    </Stack.Item>
   );
 };
 

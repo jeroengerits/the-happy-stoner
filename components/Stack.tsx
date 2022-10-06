@@ -1,12 +1,12 @@
 import classNames from "classnames";
 import React from "react";
 
-type Props = {
+type StackProps = {
   children: React.ReactNode;
   isVertical?: boolean;
 } & React.HTMLAttributes<HTMLDivElement>;
 
-const Stack = ({ className, isVertical, children, ...rest }: Props) => (
+const Stack = ({ className, isVertical, children, ...rest }: StackProps) => (
   <div
     className={classNames(
       "flex items-center justify-center gap-2",
@@ -17,5 +17,17 @@ const Stack = ({ className, isVertical, children, ...rest }: Props) => (
     {children}
   </div>
 );
+
+type StackItemProps = {
+  children: React.ReactNode;
+} & React.HTMLAttributes<HTMLDivElement>;
+
+const StackItem = ({ children, ...rest }: StackItemProps) => (
+  <div className="w-full" {...rest}>
+    {children}
+  </div>
+);
+
+Stack.Item = StackItem;
 
 export default Stack;
