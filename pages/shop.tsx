@@ -17,10 +17,10 @@ const Shop: NextPage = () => {
       <PageContainer>
         <Navigation>
           <Navigation.Item href="/">Hello</Navigation.Item>
+          <Navigation.Item href="/blog">Blog</Navigation.Item>
           <Navigation.Item href="/shop" isActive>
             Shop
           </Navigation.Item>
-          <Navigation.Item href="/blog">Blog</Navigation.Item>
         </Navigation>
         <ContentContainer>
           <WordMark />

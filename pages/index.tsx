@@ -20,8 +20,8 @@ const Home: NextPage = () => {
           <Navigation.Item href="/" isActive>
             Hello
           </Navigation.Item>
-          <Navigation.Item href="/shop">Shop</Navigation.Item>
           <Navigation.Item href="/blog">Blog</Navigation.Item>
+          <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
           <WordMark />
