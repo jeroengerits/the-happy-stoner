@@ -25,7 +25,7 @@ const Shop: NextPage = () => {
               Shop
             </Navigation.Item>
           </Navigation>
-          bla
+          blabla
         </ContentContainer>
       </PageContainer>
     </div>
