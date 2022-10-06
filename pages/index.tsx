@@ -29,15 +29,15 @@ const Home: NextPage = () => {
         <WordkMark />
         <div className="mt-12 px-2 lg:px-0">
           <Paragraph>
-            Cannabis has been a part of Amsterdams culture for years, and we are
+            Cannabis has been a part of Amsterdams culture for years, and we’re
             proud to be part of this. So many people come here seeking out peace
             in an increasingly busy world - we feel their stash should go along
             with care too!
           </Paragraph>
           <Paragraph>
-            That is why we came up with a future proof package made with
-            recycled and eco-friendly materials - which means we help reduce
-            pollution in Amsterdam.
+            That’s why we came up with a plastic-free package made with recycled
+            and eco-friendly materials - which helps to reduce pollution in
+            Amsterdam.
           </Paragraph>
           <Paragraph>
             Our sleek design is reusable and keeps your cannabis fresh, so you
@@ -50,10 +50,11 @@ const Home: NextPage = () => {
           </Paragraph>
           <form className="flex flex-col my-24 text-center justify-center">
             <label
-              className="text-green-100/80 font-serif font-medium text-2xl md:text-3xl mb-4"
+              className="text-green-100/80 font-serif max-w-sm mx-auto font-medium text-xl md:text-2xl mb-4"
               htmlFor="email"
             >
-              Respect the stash, be a happy stoner
+              Respect the stash, become{" "}
+              <span className="whitespace-nowrap">The Happy Stoner</span>
             </label>
             <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
               <input
