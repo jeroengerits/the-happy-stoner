@@ -8,13 +8,13 @@
   @apply font-serif text-3xl font-black  md:text-4xl  lg:text-5xl;
 }
 .heading-md {
-  @apply font-serif text-2xl font-medium  md:text-3xl  lg:text-4xl;
+  @apply font-serif text-2xl font-black  md:text-3xl  lg:text-4xl;
 }
 .heading-sm {
   @apply font-serif text-xl  md:text-2xl  lg:text-3xl;
 }
 .heading-xs {
-  @apply font-serif text-lg font-light !leading-relaxed  md:text-xl  lg:text-2xl;
+  @apply font-serif text-lg  !leading-relaxed  md:text-xl  lg:text-2xl;
 }
 .paragraph {
   @apply text-sm !leading-relaxed md:text-base lg:text-lg;
