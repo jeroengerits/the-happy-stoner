@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import Link from "next/link";
 import React from "react";
+import Button from "./Button";
 
 type NavigationProps = {
   children: React.ReactNode;
@@ -29,16 +30,19 @@ const NavigationItem = ({
   isActive,
   ...rest
 }: NavigationItemProps) => {
-  const className = classNames(
-    isActive
-      ? "font-black bg-white/10"
-      : "font-normal hover:text-white hover:bg-white/20",
-    "block text-white/80 w-full text-sm lg:text-md xl:text-lg cursor-pointer p-3 rounded transition-all"
-  );
   return (
     <li className="w-full" {...rest}>
       <Link href={href}>
-        <span className={className}>{children}</span>
+        <Button
+          className={classNames(
+            isActive
+              ? "bg-white/10 font-black"
+              : "font-normal hover:bg-white/20 hover:text-white",
+            "lg:text-md block w-full cursor-pointer select-none rounded p-3 text-sm text-white/80 ring-white/50 transition-all focus:outline-none focus:ring-2 xl:text-lg"
+          )}
+        >
+          {children}
+        </Button>
       </Link>
     </li>
   );
