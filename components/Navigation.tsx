@@ -8,11 +8,7 @@ type NavigationProps = {
 
 type NavigationItemProps = {
   children: React.ReactNode;
-};
-
-type NavigationLinkProps = {
   href: string;
-  children: React.ReactNode;
   isActive?: boolean;
 };
 
@@ -27,16 +23,12 @@ const Navigation = ({ children, ...rest }: NavigationProps) => {
   );
 };
 
-const NavigationItem = ({ children, ...rest }: NavigationItemProps) => {
-  const className = classNames("w-full");
-  return (
-    <li className={className} {...rest}>
-      {children}
-    </li>
-  );
-};
-
-const NavigationLink = ({ href, children, isActive }: NavigationLinkProps) => {
+const NavigationItem = ({
+  children,
+  href,
+  isActive,
+  ...rest
+}: NavigationItemProps) => {
   const className = classNames(
     isActive
       ? "font-black bg-green-900"
@@ -44,13 +36,14 @@ const NavigationLink = ({ href, children, isActive }: NavigationLinkProps) => {
     "block text-green-100/80 w-full text-sm lg:text-md xl:text-lg cursor-pointer p-3 rounded transition-all"
   );
   return (
-    <Link href={href}>
-      <span className={className}>{children}</span>
-    </Link>
+    <li className="w-full" {...rest}>
+      <Link href={href}>
+        <span className={className}>{children}</span>
+      </Link>
+    </li>
   );
 };
 
 Navigation.Item = NavigationItem;
-Navigation.Link = NavigationLink;
 
 export default Navigation;

@@ -14,21 +14,13 @@ const Shop: NextPage = () => {
       </Head>
       <main className="p-4 max-w-2xl mx-auto">
         <Navigation>
-          <Navigation.Item>
-            <Navigation.Link href="/">Hello</Navigation.Link>
+          <Navigation.Item href="/">Hello</Navigation.Item>
+          <Navigation.Item href="/shop" isActive>
+            Shop
           </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/shop" isActive>
-              Shop
-            </Navigation.Link>
-          </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/blog">Blog</Navigation.Link>
-          </Navigation.Item>
+          <Navigation.Item href="/blog">Blog</Navigation.Item>
         </Navigation>
-        <div className="top-0 sticky">
-          <WordkMark />
-        </div>
+
         <Paragraph>Shop</Paragraph>
       </main>
     </div>

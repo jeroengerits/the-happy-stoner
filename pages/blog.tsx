@@ -14,21 +14,12 @@ const Blog: NextPage = () => {
       </Head>
       <main className="p-4 max-w-2xl mx-auto">
         <Navigation>
-          <Navigation.Item>
-            <Navigation.Link href="/">Hello</Navigation.Link>
-          </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/shop">Shop</Navigation.Link>
-          </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/blog" isActive>
-              Blog
-            </Navigation.Link>
+          <Navigation.Item href="/">Hello</Navigation.Item>
+          <Navigation.Item href="/shop">Shop</Navigation.Item>
+          <Navigation.Item href="/blog" isActive>
+            Blog
           </Navigation.Item>
         </Navigation>
-        <div className="top-0 sticky">
-          <WordkMark />
-        </div>
         <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
           This is a blog subject title of a thing
         </h2>
@@ -38,7 +29,24 @@ const Blog: NextPage = () => {
           maxime nam natus neque nisi quaerat repellat sed, velit voluptatum!
           Eos, nesciunt!
         </Paragraph>
-        <Paragraph>Read more..</Paragraph>
+        <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          This is a blog subject title of a thing
+        </h2>
+        <Paragraph>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet
+          aperiam ea excepturi exercitationem expedita, impedit iusto laborum
+          maxime nam natus neque nisi quaerat repellat sed, velit voluptatum!
+          Eos, nesciunt!
+        </Paragraph>
+        <h2 className=" text-green-100/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          This is a blog subject title of a thing
+        </h2>
+        <Paragraph>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet
+          aperiam ea excepturi exercitationem expedita, impedit iusto laborum
+          maxime nam natus neque nisi quaerat repellat sed, velit voluptatum!
+          Eos, nesciunt!
+        </Paragraph>
       </main>
     </div>
   );

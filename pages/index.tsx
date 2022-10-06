@@ -14,17 +14,11 @@ const Home: NextPage = () => {
       </Head>
       <main className="p-4 max-w-2xl mx-auto antialiased">
         <Navigation>
-          <Navigation.Item>
-            <Navigation.Link href="/" isActive>
-              Hello
-            </Navigation.Link>
+          <Navigation.Item href="/" isActive>
+            Hello
           </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/shop">Shop</Navigation.Link>
-          </Navigation.Item>
-          <Navigation.Item>
-            <Navigation.Link href="/blog">Blog</Navigation.Link>
-          </Navigation.Item>
+          <Navigation.Item href="/shop">Shop</Navigation.Item>
+          <Navigation.Item href="/blog">Blog</Navigation.Item>
         </Navigation>
         <div className="top-0 sticky">
           <WordkMark />
