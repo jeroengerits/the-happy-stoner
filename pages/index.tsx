@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="p-4 max-w-2xl mx-auto">
+      <main className="p-4 max-w-2xl mx-auto antialiased">
         <Navigation>
           <Navigation.Item>
             <Navigation.Link href="/" isActive>
@@ -26,8 +26,10 @@ const Home: NextPage = () => {
             <Navigation.Link href="/blog">Blog</Navigation.Link>
           </Navigation.Item>
         </Navigation>
-        <WordkMark />
-        <div className="mt-12 px-2 lg:px-0">
+        <div className="top-0 sticky">
+          <WordkMark />
+        </div>
+        <div className="mt-8 px-2 md:px-0">
           <Paragraph>
             Cannabis has been a part of Amsterdams culture for years, and we’re
             proud to be part of this. So many people come here seeking out peace
@@ -48,7 +50,7 @@ const Home: NextPage = () => {
             We know you love smoking as much we do, but why keep using plastics
             when there is a better option?
           </Paragraph>
-          <form className="flex flex-col my-24 text-center justify-center">
+          <form className="flex flex-col my-16 text-center justify-center">
             <label
               className="text-green-100/80 font-serif max-w-sm mx-auto font-medium text-xl md:text-2xl mb-4"
               htmlFor="email"
@@ -65,7 +67,7 @@ const Home: NextPage = () => {
                 placeholder="E-mail address..."
               />
               <button
-                className="whitespace-nowrap bg-green-900/50 hover:bg-green-900 text-green-100/80 tracking-wide font-bold transition-all   rounded-md py-3 px-8"
+                className="whitespace-nowrap bg-green-900/50 hover:bg-green-900 text-green-100/80 tracking-wide font-bold transition-all rounded-md py-3 px-8"
                 type="submit"
               >
                 Join Us

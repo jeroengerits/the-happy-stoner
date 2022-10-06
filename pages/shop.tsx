@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Paragraph from "../components/Paragraph";
+import WordkMark from "../components/WordkMark";
 
 const Shop: NextPage = () => {
   return (
@@ -25,6 +26,9 @@ const Shop: NextPage = () => {
             <Navigation.Link href="/blog">Blog</Navigation.Link>
           </Navigation.Item>
         </Navigation>
+        <div className="top-0 sticky">
+          <WordkMark />
+        </div>
         <Paragraph>Shop</Paragraph>
       </main>
     </div>
