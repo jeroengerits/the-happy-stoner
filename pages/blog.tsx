@@ -3,6 +3,7 @@ import Head from "next/head";
 import ContentContainer from "../components/ContentContainer";
 import Navigation from "../components/Navigation";
 import PageContainer from "../components/PageContainer";
+import WordMark from "../components/WordMark";
 
 const Blog: NextPage = () => {
   return (
@@ -13,14 +14,17 @@ const Blog: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageContainer>
-        <Navigation>
-          <Navigation.Item href="/">Hello</Navigation.Item>
-          <Navigation.Item href="/blog" isActive>
-            Blog
-          </Navigation.Item>
-          <Navigation.Item href="/shop">Shop</Navigation.Item>
-        </Navigation>
         <ContentContainer>
+          <div className="pt-4 pb-8">
+            <WordMark />
+          </div>
+          <Navigation>
+            <Navigation.Item href="/">Hello</Navigation.Item>
+            <Navigation.Item href="/blog" isActive>
+              Blog
+            </Navigation.Item>
+            <Navigation.Item href="/shop">Shop</Navigation.Item>
+          </Navigation>
           <h1 className="heading-md mt-12 mb-12 text-green-50 ">
             Latest Updates
           </h1>

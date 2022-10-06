@@ -16,7 +16,7 @@ type NavigationItemProps = {
 
 const Navigation = ({ children, ...rest }: NavigationProps) => {
   return (
-    <Stack className="sticky top-0 bg-green-800 p-2" {...rest}>
+    <Stack className="sticky top-0 bg-green-800 py-2" {...rest}>
       {children}
     </Stack>
   );
