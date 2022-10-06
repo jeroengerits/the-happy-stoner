@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="min-h-screen  bg-green-800">
         <main className="mx-auto max-w-2xl p-4 antialiased ">
+          <WordkMark />
           <Navigation>
             <Navigation.Item href="/" isActive>
               Hello
@@ -22,8 +23,7 @@ const Home: NextPage = () => {
             <Navigation.Item href="/shop">Shop</Navigation.Item>
             <Navigation.Item href="/blog">Blog</Navigation.Item>
           </Navigation>
-          <WordkMark />
-          <div className="mt-8 px-2 md:px-0 ">
+          <div className="mt-12 px-2 md:px-0 ">
             <Paragraph>
               Cannabis has been a part of Amsterdams culture for years, and
               we’re proud to be part of this. So many people come here seeking

@@ -14,6 +14,8 @@ const Blog: NextPage = () => {
       </Head>
       <div className="min-h-screen bg-green-800 text-green-100">
         <main className="mx-auto max-w-2xl p-4">
+          <WordkMark />
+
           <Navigation>
             <Navigation.Item href="/">Hello</Navigation.Item>
             <Navigation.Item href="/shop">Shop</Navigation.Item>
@@ -21,33 +23,30 @@ const Blog: NextPage = () => {
               Blog
             </Navigation.Item>
           </Navigation>
-          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
-            This is a blog subject title of a thing
-          </h2>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-            amet aperiam ea excepturi exercitationem expedita, impedit iusto
-            laborum maxime nam natus neque nisi quaerat repellat sed, velit
-            voluptatum! Eos, nesciunt!
-          </Paragraph>
-          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
-            This is a blog subject title of a thing
-          </h2>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-            amet aperiam ea excepturi exercitationem expedita, impedit iusto
-            laborum maxime nam natus neque nisi quaerat repellat sed, velit
-            voluptatum! Eos, nesciunt!
-          </Paragraph>
-          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
-            This is a blog subject title of a thing
-          </h2>
-          <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-            amet aperiam ea excepturi exercitationem expedita, impedit iusto
-            laborum maxime nam natus neque nisi quaerat repellat sed, velit
-            voluptatum! Eos, nesciunt!
-          </Paragraph>
+          <div className="text-center">
+            <h2 className="mx-8 mb-4 mt-12  font-serif text-xl font-medium !leading-snug tracking-wide text-white/80 md:text-2xl lg:text-3xl">
+              The hidden costs of smoking- plastics polluting our planet
+            </h2>
+            <Paragraph>
+              Aliquid amet aperiam ea excepturi exercitationem expedita, impedit
+              iusto laborum maxime nam natus neque nisi quaerat sed, velit
+              voluptatum!
+            </Paragraph>
+            <h2 className=" mx-8 mb-4  mt-12 font-serif text-xl font-medium !leading-snug tracking-wide text-white/80 md:text-2xl lg:text-3xl">
+              Why switching to The Happy Stoner will save you money
+            </h2>
+            <Paragraph>
+              Exercitationem expedita, impedit iusto laborum maxime nam natus
+              neque nisi quaerat repellat sed, velit voluptatum!
+            </Paragraph>
+            <h2 className=" mx-8 mb-4 mt-12   font-serif text-xl font-medium !leading-snug tracking-wide text-white/80 md:text-2xl lg:text-3xl">
+              Why environmental friendly cannabis packaging matters
+            </h2>
+            <Paragraph>
+              Impedit iusto laborum maxime nam natus neque nisi quaerat repellat
+              sed, velit voluptatum!
+            </Paragraph>
+          </div>
         </main>
       </div>
     </div>

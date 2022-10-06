@@ -14,6 +14,7 @@ const Shop: NextPage = () => {
       </Head>
       <div className="min-h-screen bg-green-800 text-green-100">
         <main className="mx-auto max-w-2xl p-4">
+          <WordkMark />
           <Navigation>
             <Navigation.Item href="/">Hello</Navigation.Item>
             <Navigation.Item href="/shop" isActive>
