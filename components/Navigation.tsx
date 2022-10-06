@@ -36,7 +36,7 @@ const NavigationItem = ({
             isActive
               ? "bg-white/10 font-black"
               : "font-normal hover:bg-white/20 hover:font-medium hover:text-white",
-            "lg:text-md block w-full cursor-pointer select-none rounded p-3 text-sm text-white/80 ring-white/50 transition-all focus:outline-none focus:ring-2 xl:text-lg"
+            "lg:text-md block w-full cursor-pointer select-none rounded p-4 text-sm text-white/80 ring-white/50 transition-all focus:outline-none focus:ring-2 xl:text-lg"
           )}
         >
           {children}
