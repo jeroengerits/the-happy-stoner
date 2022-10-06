@@ -12,7 +12,7 @@ const Blog: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-green-800 text-green-100">
+      <div className="min-h-screen bg-green-800 text-green-100 antialiased">
         <Navigation>
           <Navigation.Item href="/">Hello</Navigation.Item>
           <Navigation.Item href="/shop">Shop</Navigation.Item>
@@ -20,7 +20,7 @@ const Blog: NextPage = () => {
             Blog
           </Navigation.Item>
         </Navigation>
-        <main className="mx-auto max-w-2xl p-4 antialiased ">
+        <main className="mx-auto max-w-2xl p-4  ">
           <WordMark />
           <div className="mt-12 px-2 md:px-0 ">
             <h2 className=" mb-2 mt-12   font-serif text-2xl font-medium !leading-snug  md:text-3xl ">
