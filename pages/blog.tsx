@@ -25,10 +25,8 @@ const Blog: NextPage = () => {
             </Navigation.Item>
             <Navigation.Item href="/shop">Shop</Navigation.Item>
           </Navigation>
-          <h1 className="heading-md mt-12 mb-12 text-green-50 ">
-            Latest Updates
-          </h1>
-          <div>
+
+          <div className="mt-16">
             <h2 className="heading-xs mb-2 mt-6 text-green-50">
               The real hidden costs of cannabis smoking- plastics polluting our
               planet
