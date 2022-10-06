@@ -25,7 +25,7 @@ const Blog: NextPage = () => {
         <ContentContainer>
           <WordMark />
           <div className="mt-12 px-2 md:px-0 ">
-            <h2 className=" mb-2 mt-12   font-serif text-2xl font-medium !leading-snug  md:text-3xl ">
+            <h2 className=" mb-2 mt-12   font-serif text-xl font-medium tracking-wide md:text-2xl ">
               The hidden costs of smoking- plastics polluting our planet
             </h2>
             <Paragraph>
@@ -33,14 +33,14 @@ const Blog: NextPage = () => {
               iusto laborum maxime nam natus neque nisi quaerat sed, velit
               voluptatum!
             </Paragraph>
-            <h2 className="  mb-2  mt-12  font-serif text-2xl font-medium !leading-snug  md:text-3xl ">
+            <h2 className=" mb-2 mt-12 font-serif text-xl font-medium tracking-wide md:text-2xl ">
               Why switching to The Happy Stoner will save you money
             </h2>
             <Paragraph>
               Exercitationem expedita, impedit iusto laborum maxime nam natus
               neque nisi quaerat repellat sed, velit voluptatum!
             </Paragraph>
-            <h2 className="  mb-2 mt-12    font-serif text-2xl font-medium !leading-snug  md:text-3xl ">
+            <h2 className=" mb-2 mt-12 font-serif text-xl font-medium tracking-wide md:text-2xl ">
               Why environmental friendly cannabis packaging matters
             </h2>
             <Paragraph>
