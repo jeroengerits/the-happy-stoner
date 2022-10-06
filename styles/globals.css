@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .heading-lg {
-  @apply mb-1 font-serif text-3xl font-black !leading-none tracking-wide  md:text-4xl  lg:text-5xl;
+  @apply mb-1 font-serif text-3xl font-black !leading-none tracking-wide   lg:text-4xl;
 }
 .heading-md {
   @apply font-serif text-2xl font-black tracking-wide  md:text-3xl  lg:text-4xl;
