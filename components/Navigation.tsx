@@ -13,11 +13,11 @@ type NavigationItemProps = {
 };
 
 const Navigation = ({ children, ...rest }: NavigationProps) => {
-  const className = classNames(
-    "flex gap-2 justify-center items-center text-center justify-center mb-12"
-  );
   return (
-    <ul className={className} {...rest}>
+    <ul
+      className="mb-12 flex items-center justify-center justify-center gap-2 text-center"
+      {...rest}
+    >
       {children}
     </ul>
   );
