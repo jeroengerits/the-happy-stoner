@@ -5,7 +5,7 @@ type Props = {} & React.HTMLAttributes<HTMLDivElement>;
 
 const WordMark = ({ className, ...rest }: Props) => (
   <div
-    className={classNames("mt-2 mb-8 block text-center", className)}
+    className={classNames("mt-4 mb-8 block text-center", className)}
     {...rest}
   >
     <h1 className="select-none font-serif text-3xl font-black text-white/80 md:mb-1 md:text-4xl lg:mb-2 lg:text-5xl">

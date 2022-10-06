@@ -10,7 +10,8 @@ const Stack = ({ className, isVertical, children, ...rest }: StackProps) => (
   <div
     className={classNames(
       "flex items-center justify-center gap-2",
-      isVertical ? "flex-col" : "flex-row"
+      isVertical ? "flex-col" : "flex-row",
+      className
     )}
     {...rest}
   >

@@ -14,15 +14,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen  bg-green-800">
+        <Navigation>
+          <Navigation.Item href="/" isActive>
+            Hello
+          </Navigation.Item>
+          <Navigation.Item href="/shop">Shop</Navigation.Item>
+          <Navigation.Item href="/blog">Blog</Navigation.Item>
+        </Navigation>
         <main className="mx-auto max-w-2xl p-4 antialiased ">
           <WordMark />
-          <Navigation>
-            <Navigation.Item href="/" isActive>
-              Hello
-            </Navigation.Item>
-            <Navigation.Item href="/shop">Shop</Navigation.Item>
-            <Navigation.Item href="/blog">Blog</Navigation.Item>
-          </Navigation>
           <div className="mt-12 px-2 md:px-0 ">
             <Paragraph>
               Cannabis has been a part of Amsterdams culture for years, and

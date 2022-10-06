@@ -16,7 +16,7 @@ type NavigationItemProps = {
 
 const Navigation = ({ children, ...rest }: NavigationProps) => {
   return (
-    <Stack className="mb-12 mt-6" {...rest}>
+    <Stack className="p-2" {...rest}>
       {children}
     </Stack>
   );

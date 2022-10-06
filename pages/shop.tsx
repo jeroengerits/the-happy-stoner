@@ -13,15 +13,15 @@ const Shop: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen bg-green-800 text-green-100">
+        <Navigation>
+          <Navigation.Item href="/">Hello</Navigation.Item>
+          <Navigation.Item href="/shop" isActive>
+            Shop
+          </Navigation.Item>
+          <Navigation.Item href="/blog">Blog</Navigation.Item>
+        </Navigation>
         <main className="mx-auto max-w-2xl p-4">
           <WordMark />
-          <Navigation>
-            <Navigation.Item href="/">Hello</Navigation.Item>
-            <Navigation.Item href="/shop" isActive>
-              Shop
-            </Navigation.Item>
-            <Navigation.Item href="/blog">Blog</Navigation.Item>
-          </Navigation>
         </main>
       </div>
     </div>
