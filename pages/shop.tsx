@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import InternalLink from "../components/InternalLink";
 import Navigation from "../components/Navigation";
 import Paragraph from "../components/Paragraph";
 
@@ -15,15 +14,15 @@ const Shop: NextPage = () => {
       <main className="p-4 max-w-2xl mx-auto">
         <Navigation>
           <Navigation.Item>
-            <InternalLink href="/">Hello</InternalLink>
+            <Navigation.Link href="/">Hello</Navigation.Link>
           </Navigation.Item>
           <Navigation.Item>
-            <InternalLink href="/shop" isActive>
+            <Navigation.Link href="/shop" isActive>
               Shop
-            </InternalLink>
+            </Navigation.Link>
           </Navigation.Item>
           <Navigation.Item>
-            <InternalLink href="/blog">Blog</InternalLink>
+            <Navigation.Link href="/blog">Blog</Navigation.Link>
           </Navigation.Item>
         </Navigation>
         <Paragraph>Shop</Paragraph>
