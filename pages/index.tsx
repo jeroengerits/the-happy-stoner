@@ -46,7 +46,7 @@ const Home: NextPage = () => {
             </Paragraph>
             <form className="my-16 flex flex-col justify-center text-center">
               <label
-                className="mx-auto mb-4 max-w-sm font-serif text-xl font-medium text-white/80 md:text-2xl"
+                className="mx-auto mb-4 max-w-sm font-serif text-xl font-medium tracking-wide text-white/80 md:text-2xl"
                 htmlFor="email"
               >
                 Respect the stash, become{" "}

@@ -2,6 +2,7 @@ import classNames from "classnames";
 import Link from "next/link";
 import React from "react";
 import Button from "./Button";
+import Stack from "./Stack";
 
 type NavigationProps = {
   children: React.ReactNode;
@@ -15,12 +16,9 @@ type NavigationItemProps = {
 
 const Navigation = ({ children, ...rest }: NavigationProps) => {
   return (
-    <ul
-      className="mb-12 mt-6 flex items-center justify-center justify-center gap-2"
-      {...rest}
-    >
+    <Stack className="mb-12 mt-6" {...rest}>
       {children}
-    </ul>
+    </Stack>
   );
 };
 
@@ -31,7 +29,7 @@ const NavigationItem = ({
   ...rest
 }: NavigationItemProps) => {
   return (
-    <li className="w-full" {...rest}>
+    <div className="w-full" {...rest}>
       <Link href={href}>
         <Button
           className={classNames(
@@ -44,7 +42,7 @@ const NavigationItem = ({
           {children}
         </Button>
       </Link>
-    </li>
+    </div>
   );
 };
 
