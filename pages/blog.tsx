@@ -22,7 +22,7 @@ const Blog: NextPage = () => {
         </Navigation>
         <ContentContainer>
           <h1 className="heading-md mt-8 mb-12 ">Latest Updates</h1>
-          <div className=" px-2 md:px-0 ">
+          <div className=" ">
             <h2 className="heading-xs mb-2 mt-6">
               The real hidden costs of cannabis smoking- plastics polluting our
               planet
