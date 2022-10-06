@@ -11,10 +11,10 @@
   @apply font-serif text-2xl font-medium tracking-wide md:text-3xl  lg:text-4xl;
 }
 .heading-sm {
-  @apply font-serif text-xl font-light tracking-wide md:text-2xl  lg:text-3xl;
+  @apply font-serif text-xl tracking-wide md:text-2xl  lg:text-3xl;
 }
 .heading-xs {
-  @apply font-serif text-lg font-medium !leading-relaxed tracking-wide md:text-xl  lg:text-2xl;
+  @apply font-serif text-lg font-light !leading-relaxed tracking-wide md:text-xl  lg:text-2xl;
 }
 .paragraph {
   @apply text-sm !leading-relaxed md:text-base lg:text-lg;
