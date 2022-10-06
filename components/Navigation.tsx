@@ -35,7 +35,7 @@ const NavigationItem = ({
           className={classNames(
             isActive
               ? "bg-green-900 font-black"
-              : "font-normal hover:bg-green-700 hover:font-medium hover:text-green-50",
+              : "bg-transparent font-normal hover:bg-green-700 hover:font-medium hover:text-green-50",
             "lg:text-md block w-full cursor-pointer select-none rounded py-4 text-sm text-green-50 ring-green-200 transition-all focus:outline-none focus:ring-2 xl:text-lg"
           )}
         >

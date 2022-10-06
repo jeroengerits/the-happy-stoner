@@ -50,21 +50,20 @@ const Home: NextPage = () => {
             </Paragraph>
             <form className="my-16 flex flex-col justify-center text-center">
               <label
-                className="mx-auto mb-4 max-w-sm font-serif text-xl font-medium tracking-wide md:text-2xl"
+                className="mx-auto mb-4 font-serif text-xl font-medium tracking-wide md:text-2xl"
                 htmlFor="email"
               >
-                Respect the stash, become{" "}
-                <span className="whitespace-nowrap">The Happy Stoner</span>
+                Respect the stash, be like The Happy Stoner
               </label>
               <div className="flex flex-col items-center justify-start justify-center gap-2 lg:flex-row">
                 <input
-                  className="w-80 select-none rounded-md border-0 bg-green-700 py-3 px-6 font-medium placeholder-green-900 ring-green-200 transition-all focus:outline-none focus:ring-2"
+                  className="w-full select-none rounded-md border-0 bg-green-700 py-3 px-6 font-medium placeholder-green-900 ring-green-200 transition-all focus:outline-none focus:ring-2"
                   type="email"
                   name="email"
                   id="email"
                   placeholder="E-mail address..."
                 />
-                <Button>Join Us</Button>
+                <Button className="w-full">Join Us</Button>
               </div>
             </form>
           </div>
