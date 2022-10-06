@@ -1,9 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import InternalLink from "../components/InternalLink";
 import Navigation from "../components/Navigation";
-import WordkMark from "../components/WordkMark";
+import Paragraph from "../components/Paragraph";
 
 const Shop: NextPage = () => {
   return (
@@ -13,23 +12,21 @@ const Shop: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="p-4 text-center max-w-2xl mx-auto">
-        <div className="block mb-16">
-          <Navigation>
-            <Navigation.Item>
-              <InternalLink href="/">Hello</InternalLink>
-            </Navigation.Item>
-            <Navigation.Item>
-              <InternalLink href="/shop" isActive>
-                Shop
-              </InternalLink>
-            </Navigation.Item>
-            <Navigation.Item>
-              <InternalLink href="/blog">Blog</InternalLink>
-            </Navigation.Item>
-          </Navigation>
-        </div>
-        <div className="  text-lg text-left mt-12">shop</div>
+      <main className="p-4 max-w-2xl mx-auto">
+        <Navigation>
+          <Navigation.Item>
+            <InternalLink href="/">Hello</InternalLink>
+          </Navigation.Item>
+          <Navigation.Item>
+            <InternalLink href="/shop" isActive>
+              Shop
+            </InternalLink>
+          </Navigation.Item>
+          <Navigation.Item>
+            <InternalLink href="/blog">Blog</InternalLink>
+          </Navigation.Item>
+        </Navigation>
+        <Paragraph>Shop</Paragraph>
       </main>
     </div>
   );

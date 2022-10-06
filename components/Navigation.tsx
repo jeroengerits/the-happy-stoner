@@ -6,7 +6,9 @@ type Props = {
 };
 
 const Navigation = ({ children, ...rest }: Props) => {
-  const className = classNames("flex gap-2 justify-center items-center");
+  const className = classNames(
+    "flex gap-2 justify-center items-center text-center justify-center mb-12"
+  );
   return (
     <ul className={className} {...rest}>
       {children}
