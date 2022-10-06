@@ -23,12 +23,10 @@ const Blog: NextPage = () => {
           <Navigation.Item href="/shop">Shop</Navigation.Item>
         </Navigation>
         <ContentContainer>
-          <div className="mt-12 mb-16 ">
-            <WordMark />
-          </div>{" "}
-          <div className="mt-12 px-2 md:px-0 ">
+          <div className="mt-8 px-2 md:px-0 ">
             <h2 className="heading-xs mb-2 mt-8">
-              The hidden costs of smoking- plastics polluting our planet
+              The real hidden costs of cannabis smoking- plastics polluting our
+              planet
             </h2>
             <Paragraph>
               Aliquid amet aperiam ea excepturi exercitationem expedita, impedit
@@ -36,14 +34,16 @@ const Blog: NextPage = () => {
               voluptatum!
             </Paragraph>
             <h2 className="heading-xs mb-2 mt-8">
-              Why switching to The Happy Stoner will save you money
+              Why switching to The Happy Stoner will save you money and the
+              planet
             </h2>
             <Paragraph>
               Exercitationem expedita, impedit iusto laborum maxime nam natus
               neque nisi quaerat repellat sed, velit voluptatum!
             </Paragraph>
             <h2 className="heading-xs mb-2 mt-8">
-              Why environmental friendly cannabis packaging matters
+              Why environmental friendly cannabis packaging matters to you and
+              the planet
             </h2>
             <Paragraph>
               Impedit iusto laborum maxime nam natus neque nisi quaerat repellat

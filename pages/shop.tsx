@@ -22,55 +22,7 @@ const Shop: NextPage = () => {
             Shop
           </Navigation.Item>
         </Navigation>
-        <ContentContainer>
-          <div className="mt-12 mb-16 ">
-            <WordMark />
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </ContentContainer>
+        <ContentContainer>bla</ContentContainer>
       </PageContainer>
     </div>
   );

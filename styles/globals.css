@@ -14,7 +14,7 @@
   @apply font-serif text-xl font-light tracking-wide md:text-2xl  lg:text-3xl;
 }
 .heading-xs {
-  @apply font-serif text-lg font-light tracking-wide md:text-xl  lg:text-2xl;
+  @apply font-serif text-lg font-bold !leading-relaxed tracking-wide md:text-xl  lg:text-2xl;
 }
 .paragraph {
   @apply text-sm !leading-relaxed md:text-base lg:text-lg;
