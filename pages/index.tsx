@@ -13,8 +13,8 @@ const Home: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-green-800  min-h-screen">
-        <main className="p-4 max-w-2xl mx-auto antialiased ">
+      <div className="min-h-screen  bg-green-800">
+        <main className="mx-auto max-w-2xl p-4 antialiased ">
           <Navigation>
             <Navigation.Item href="/" isActive>
               Hello
@@ -44,17 +44,17 @@ const Home: NextPage = () => {
               We know you love smoking as much we do, but why keep using
               plastics when there is a better option?
             </Paragraph>
-            <form className="flex flex-col my-16 text-center justify-center">
+            <form className="my-16 flex flex-col justify-center text-center">
               <label
-                className="text-white/80 font-serif max-w-sm mx-auto font-medium text-xl md:text-2xl mb-4"
+                className="mx-auto mb-4 max-w-sm font-serif text-xl font-medium text-white/80 md:text-2xl"
                 htmlFor="email"
               >
                 Respect the stash, become{" "}
                 <span className="whitespace-nowrap">The Happy Stoner</span>
               </label>
-              <div className="flex flex-col lg:flex-row justify-start gap-2 justify-center items-center">
+              <div className="flex flex-col items-center justify-start justify-center gap-2 lg:flex-row">
                 <input
-                  className="focus:outline-none focus:ring-2 ring-white/50 border-0 w-80 select-none bg-white/10 placeholder-white/50 text-white/80 font-medium transition-all rounded-md py-3 px-6"
+                  className="w-80 select-none rounded-md border-0 bg-white/10 py-3 px-6 font-medium text-white/80 placeholder-white/50 ring-white/50 transition-all focus:outline-none focus:ring-2"
                   type="email"
                   name="email"
                   id="email"

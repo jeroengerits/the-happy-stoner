@@ -12,8 +12,8 @@ const Blog: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-green-800 text-green-100 min-h-screen">
-        <main className="p-4 max-w-2xl mx-auto">
+      <div className="min-h-screen bg-green-800 text-green-100">
+        <main className="mx-auto max-w-2xl p-4">
           <Navigation>
             <Navigation.Item href="/">Hello</Navigation.Item>
             <Navigation.Item href="/shop">Shop</Navigation.Item>
@@ -21,7 +21,7 @@ const Blog: NextPage = () => {
               Blog
             </Navigation.Item>
           </Navigation>
-          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>
@@ -30,7 +30,7 @@ const Blog: NextPage = () => {
             laborum maxime nam natus neque nisi quaerat repellat sed, velit
             voluptatum! Eos, nesciunt!
           </Paragraph>
-          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>
@@ -39,7 +39,7 @@ const Blog: NextPage = () => {
             laborum maxime nam natus neque nisi quaerat repellat sed, velit
             voluptatum! Eos, nesciunt!
           </Paragraph>
-          <h2 className=" text-white/80 text-sm md:text-base lg:text-lg font-bold mb-1 mt-8">
+          <h2 className=" mb-1 mt-8 text-sm font-bold text-white/80 md:text-base lg:text-lg">
             This is a blog subject title of a thing
           </h2>
           <Paragraph>

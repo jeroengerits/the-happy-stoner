@@ -12,8 +12,8 @@ const Shop: NextPage = () => {
         <meta name="description" content="The Happy Stoner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-green-800 text-green-100 min-h-screen">
-        <main className="p-4 max-w-2xl mx-auto">
+      <div className="min-h-screen bg-green-800 text-green-100">
+        <main className="mx-auto max-w-2xl p-4">
           <Navigation>
             <Navigation.Item href="/">Hello</Navigation.Item>
             <Navigation.Item href="/shop" isActive>
