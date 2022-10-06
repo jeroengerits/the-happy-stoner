@@ -57,7 +57,7 @@ const Home: NextPage = () => {
               </label>
               <div className="flex flex-col items-center justify-start justify-center gap-2 lg:flex-row">
                 <input
-                  className="w-full select-none rounded-md border-0 bg-green-700 py-3 px-6 font-medium placeholder-green-900 ring-green-200 transition-all focus:outline-none focus:ring-2"
+                  className="w-full select-none rounded-md border-0 bg-green-700 py-4 px-6 font-medium placeholder-green-900 ring-green-200 transition-all focus:outline-none focus:ring-2"
                   type="email"
                   name="email"
                   id="email"
