@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"],
+        sans: ["Lato", "sans-serif"],
         serif: ["Playfair Display", "serif"],
       },
       colors: {
